@@ -1,0 +1,61 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f3ee;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+}
+
+h2 {
+  text-align: center;
+}
+
+/*********
+IDs
+*********/
+
+#headers {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around
+}
+
+#stock-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/*********
+Classes
+*********/
+
+.stock-name {
+  text-align: center;
+}
+
+textarea {
+  display: flex;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: none;
+}
+
+.class {
+  width: 20px
+}
